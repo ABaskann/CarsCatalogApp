@@ -7,7 +7,16 @@
 
     <fragment
         android:id="@+id/mainPageFragment"
-        android:name="com.abaskan.carscatalogapp.MainPageFragment"
+        android:name="com.abaskan.carscatalogapp.ui.MainPageFragment"
         android:label="fragment_main_page"
-        tools:layout="@layout/fragment_main_page" />
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPageFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.abaskan.carscatalogapp.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 </navigation>

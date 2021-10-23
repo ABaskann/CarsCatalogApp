@@ -1,7 +1,8 @@
-package com.abaskan.carscatalogapp
+package com.abaskan.carscatalogapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.abaskan.carscatalogapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
